@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="es-ES">
+<head>
+    <meta name="author" content="Sparta Team"> <!--Autor-->
+    <meta charset="UTF-8"><!--Caracteres utilizados-->
+    <meta name="description" content="Tienda de productos tecnológicos"><!--Descripcion de nuestra web-->
+    <meta name="keywords" content=""><!--Palabras clave para motores de búsqueda-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"><!--Configuración de la ventana gráfica para que su sitio web se vea bien en todos los dispositivos-->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Sparta Tecnology</title>
+
+    <!-- CSS-link -->
+    <link rel="stylesheet" href="../css/style.css">
+
+    <!-- Fuentes e iconos -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jost:wght@100;200;300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+    <link rel="shortcut icon" href="../img/monogramaLogoV1.ico" type="image/x-icon">
+
+</head>
+
+<body>
+    <section id="header">
+        <a href="../index.html" class="logo"><img src="../img/logoSpartaV1.png" alt=""></a>
+        <div>
+            <ul id="navbar">
+                <li><a href="../index.html">Inicio</a></li>
+                <li><a href="../menu/productos.html">Productos</a></li>
+                <li><a href="../menu/noticias.html">Noticias</a></li>
+                <li><a class="active" href="../menu/contacto.html">Contacto</a></li>
+                <li><a href="../menu/cuestionario.html">Cuestionario</a></li>
+                <li><a href="#">¿Buscas trabajo?</a></li>
+
+                <li id="lg-bag"><a href="#"><i class='bx bx-search'></i></a></li>
+                <li id="lg-bag"><a href="../menu/acceso.html"><i class='bx bx-user'></i></a></li>
+                <li id="lg-bag"><a href="#"><i class='bx bx-cart'></i></a></li>
+                <a href="#" id="close"><i class='bx bx-x'></i></a>
+            </ul>
+        </div>
+        <div id="mobile">
+            <a href="../menu/acceso.html"><i class='bx bx-user'></i></a>
+            <a href="#"><i class='bx bx-cart'></i></a>
+            <i id="bar" class="bx bx-menu"></i>
+        </div>
+    </section>
+
+    <section class="migas">
+        <ul class="breadcrumb">
+            <li><a href="../index.html">Inicio</a></li>
+            <li>Contacto</li>
+          </ul>
+    </section>
+
+    <section id="contactoDetalles" class="seccion1">
+        <div class="detalles">
+            <span>PONERSE EN CONTACTO</span>
+            <h2>Visite una de las ubicaciones de nuestra agencia o contáctenos hoy</h2>
+            <h3>Oficina central</h3>
+            <div>
+                <li>
+                    <i class='bx bxs-map'></i>
+                    <p>Ctra. de Mijas, 0, Km 1 5, 29100 Coín, Málaga</p>
+                </li>
+                <li>
+                    <i class='bx bxs-envelope'></i>
+                    <p>spartastore@service.com</p>
+                </li>
+                <li>
+                    <i class='bx bxs-phone'></i>
+                    <p>+34 632 92 62 48</p>
+                </li>
+                <li>
+                    <i class='bx bxs-time'></i>
+                    <p>Lunes a Viernes: 10:00 - 18:00</p>
+                </li>
+            </div>
+        </div>
+
+        <div class="mapa">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3201.1044871461622!2d-4.750130484781686!3d36.647936879980186!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd72dd1176cf7fbd%3A0x4b678dc1b6c8a524!2sInstituto%20De%20Educaci%C3%B3n%20Secundaria%20Los%20Montecillos!5e0!3m2!1ses!2ses!4v1674056374556!5m2!1ses!2ses" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+    </section>
+
+    <section id="formularioDetalles">
+        <form action="">
+            <span>DEJA UN MENSAJE</span>
+            <h2>¿En que podemos ayudarte?</h2>
+            <label for="nombre">Nombre</label>
+            <input type="text" name="nombre" id="nombre" placeholder="Nombre">
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email" placeholder="E-mail">
+            <label for="asunto">Asunto</label>
+            <select name="asunto" id="asunto">
+                <option value="promptText" selected="true">Seleccione un asunto</option>
+                <option value="Productos">Modificación/Cancelación/Estado de un producto</option>
+                <option value="Ventas">Ventas</option>
+                <option value="Incidencias">Incidencias</option>
+                <option value="Garantias">Garantias</option>
+                <option value="Devoluciones">Devoluciones</option>
+            </select>
+            <label for="email">Mensaje</label>
+            <textarea name="" id="" cols="30" rows="10" placeholder="Describe brevemente en menos de 300 caracteres"></textarea>
+            <button class="normal">Enviar</button>
+        </form>
+
+        <div class="desarrolladores">
+            <h2>Nuestros desarrolladores</h2>
+            <div>
+                <img src="../img/contacto/danielMadrid.png" alt="">
+                <p><span>Daniel Madrid</span> Desarrollador Web<br> GitHub: DanielMadGom<br> Email: danimadgom@gmail.com</p>
+            </div>
+            <div>
+                <img src="../img/contacto/adrianBlanca.png" alt="">
+                <p><span>Adrián Blanca</span> Desarrollador Web<br> GitHub: AdrianBlanca<br> Email: adrianblancaenriquez26@gmail.com</p>
+            </div>
+            <div>
+                <img src="../img/contacto/ivanZambrana.png" alt="">
+                <p><span>Iván Zambrana</span> Desarrollador Web<br> GitHub: IvanZambrana<br> Email: zambrananaranjoivan@gmail.com</p>
+            </div>
+            <div>
+                <img src="../img/contacto/javierCastillo.png" alt="">
+                <p><span>Javier Castillo</span> Desarrollador Web<br> GitHub: JavierCastilloM<br> Email: javier.castillo.m@outlook.es</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="newsletter" class="seccion1 seccion2">
+        <div class="newstext">
+            <h4>Inscríbete a nuestra Newsletter</h4>
+            <p>Reciba actualizaciones por correo electrónico sobre nuestra tienda y <span>ofertas especiales.</span></p>
+        </div>
+        <div class="form">
+            <input type="text" placeholder="Indica tu dirección de Email">
+            <button class="normal">Inscribete</button>
+        </div>
+    </section>
+
+    <footer class="seccion1">
+        <div class="col">
+            <img class="logo" src="../img/logoSpartaV1.png" alt="">
+            <p><strong>Dirección: </strong> Ctra. de Mijas, 0, Km 1 5, <br> 29100 Coín, Málaga</p>
+            <p><strong>Teléfono: </strong> +34 632 92 62 48</p>
+            <p><strong>Horario: </strong> 10:00 - 18:00, Lun - Vie</p>
+            <p><strong>spartastore@service.com</strong></p>
+            <div class="follow">
+                <h4>Siguenos</h4>
+                <div class="icon">
+                    <a href="#"><i class='bx bxl-facebook'></i></a>
+                    <a href="#"><i class='bx bxl-twitter' ></i></a>
+                    <a href="#"><i class='bx bxl-instagram' ></i></a>
+                    <a href="https://github.com/ieslosmontecillos-di/tiendamontecillos-spartastore"><i class='bx bxl-github' ></i></a>
+                </div>
+            </div>
+        </div>
+
+        <div class="col">
+            <h4>Soporte</h4>
+            <a href="../menu/contacto.html">Contacta con nosotros</a>
+            <a href="#">Acerca de la página</a>
+            <a href="#">Privacidad</a>
+        </div>
+
+        <div class="col">
+            <h4>Tienda</h4>
+            <a href="../menu/categoria1.html">Smartphones y telefonia</a>
+            <a href="#">Componentes</a>
+            <a href="#">Periféricos</a>
+            <a href="#">Ordenadores</a>
+            <a href="#">Descuento</a>
+        </div>
+
+        <div class="col">
+            <h4>Compañía</h4>
+            <a href="#">Acerca de</a>
+            <a href="#">Blog</a>
+            <a href="#">Afiliado</a>
+            <a href="#">Acceso</a>
+        </div>
+
+        <div class="col install">
+            <h4>Suscribir</h4>
+            <a href="#">Reciba actualizaciones, ofertas especiales y descuentos</a>
+            <a href="#">Reciba actualizaciones, ofertas especiales y descuentos</a>
+            <a href="#">Reciba actualizaciones, ofertas especiales y descuentos</a><br>
+            <p>Métodos de pago seguro</p>
+            <img src="../img/pago.png" alt="">
+        </div>
+
+        <div class="copyright">
+            <p>Copyright © @2023. All Rights Reserved. Designed By Sparta Team.</p>
+        </div>
+    </footer>
+
+    <script src="../java/script.js"></script>
+</body>
+</html>
